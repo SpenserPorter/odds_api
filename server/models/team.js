@@ -35,5 +35,7 @@ module.exports = function(sequelize, DataTypes) {
     }
   }, {
     tableName: 'team'
-  });
+},{
+    timestamps: false
+});
 };
